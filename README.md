@@ -1,7 +1,9 @@
-# wibu-api-js
-Official Javascript Wrapper for Wibu API.
+# Wibu-API-Js
+[![Repo Size](https://img.shields.io/github/repo-size/zYxDevs/wibu-api-js?style=flat-square)](https://github.com/zYxDevs/wibu-api-js)  [![Languages](https://img.shields.io/github/languages/top/zYxDevs/wibu-api-js?style=flat-square)](https://github.com/zYxDevs/wibu-api-js)  [![CodeFactor](https://www.codefactor.io/repository/github/zYxDevs/wibu-api-js/badge)](https://www.codefactor.io/repository/github/zYxDevs/wibu-api-js)
 
-# instalation
+_Official Javascript Wrapper for Wibu API._
+
+## Instalation
 ```shell
 npm install wibuapi
 ```
@@ -10,7 +12,7 @@ Or via yarn
 yarn add wibuapi
 ```
 
-# Examle
+## Example
 
 ```NSFW```
 
@@ -35,7 +37,7 @@ wibuapi.Nsfw(endpoint)
 })
 ```
 
-# LIST
+## LIST
 
 | Name | Params | Require |
 | :------------: | :---------------: | :-----: |
