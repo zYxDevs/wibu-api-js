@@ -13,8 +13,13 @@ yarn add wibuapi
 # Examle
 
 ```NSFW```
+
 Available Endpoint :
-[ ahegao, waifu, neko, trap, bj ]
+* ahegao
+* waifu
+* neko
+* trap
+* bj
 
 ```javascript
 const wibuapi = require('wibuapi')
@@ -29,3 +34,9 @@ wibuapi.Nsfw(endpoint)
     console.log(error)
 })
 ```
+
+# LIST
+
+| Name | Params | Require |
+| :------------: | :---------------: | :-----: |
+| NSFW | Nsfw | endpoint |
