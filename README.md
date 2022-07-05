@@ -29,7 +29,7 @@ const endpoint = 'neko'
 wibuapi.Nsfw(endpoint)
 .then(result => {
     console.log(result)
-)}
+})
 .catch(error => {
     console.log(error)
 })
