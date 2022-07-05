@@ -1,0 +1,30 @@
+{
+  "name": "wibuapi",
+  "version": "1.0.0",
+  "description": "Official Javascript Wrapper for Wibu API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zYxDevs/wibu-api-js.git"
+  },
+  "keywords": [
+    "API",
+    "wibu",
+    "anime",
+    "wibu-api",
+    "RESTfull",
+    "npm"
+  ],
+  "author": "LoliKillers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zYxDevs/wibu-api-js/issues"
+  },
+  "homepage": "https://github.com/zYxDevs/wibu-api-js#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
