@@ -1,6 +1,6 @@
 {
   "name": "wibuapi",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Official Javascript Wrapper for Wibu API",
   "main": "index.js",
   "scripts": {

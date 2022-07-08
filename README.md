@@ -39,6 +39,9 @@ wibuapi.Nsfw(endpoint)
 
 ## LIST
 
-| Name | Params | Require |
+| Name | Formats | Params |
 | :------------: | :---------------: | :-----: |
 | NSFW | Nsfw | endpoint |
+| Lendrive | Lendrive | link |
+| Kusonime | Kusonime | link |
+| Doronime | Doronime | link |
