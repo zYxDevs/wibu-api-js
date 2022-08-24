@@ -3,7 +3,7 @@
 
 _Official Javascript Wrapper for Wibu API._
 
-## Instalation
+## Installation
 ```shell
 npm install wibuapi
 ```
