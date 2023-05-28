@@ -17,6 +17,8 @@ yarn add wibuapi
 * [Manga](#manga)
 * [Drama](#drama)
 * [Music](#music)
+* [Search](#search)
+* [AniPics](#anipics)
 
 
 Usage
@@ -40,21 +42,6 @@ wibuapi.anime.LENDRIVE(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>DORONIME</b></summary><br>
@@ -69,21 +56,6 @@ wibuapi.anime.DORONIME(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -102,21 +74,6 @@ wibuapi.anime.DONGHUA(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>SAMEHADAKU</b></summary><br>
@@ -131,21 +88,6 @@ wibuapi.anime.SAMEHADAKU(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -164,21 +106,6 @@ wibuapi.anime.KUSONIME(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>ANICHIN</b></summary><br>
@@ -193,21 +120,6 @@ wibuapi.anime.ANICHIN(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -226,21 +138,6 @@ wibuapi.anime.NEKOPOI(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>KURAMANIME</b></summary><br>
@@ -255,21 +152,6 @@ wibuapi.anime.KURAMANIME(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -288,21 +170,6 @@ wibuapi.anime.KAZEFURI(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>ANIXLIFE</b></summary><br>
@@ -317,21 +184,6 @@ wibuapi.anime.ANIXLIFE(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -352,21 +204,6 @@ wibuapi.manga.RAWKUMA(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>WESTMANGA</b></summary><br>
@@ -381,21 +218,6 @@ wibuapi.anime.WESTMANGA(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -414,21 +236,6 @@ wibuapi.manga.KAMIKINDO(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>MANGATALE</b></summary><br>
@@ -443,21 +250,6 @@ wibuapi.manga.MANGATALE(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -476,21 +268,6 @@ wibuapi.manga.KIRYUU(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>MASTERKOMIK</b></summary><br>
@@ -505,21 +282,6 @@ wibuapi.manga.MASTERKOMIK(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -538,21 +300,6 @@ wibuapi.manga.MANGAKITA(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>DOUDESU</b></summary><br>
@@ -569,21 +316,6 @@ wibuapi.manga.DOUDESU(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>CROTPEDIA</b></summary><br>
@@ -598,21 +330,6 @@ wibuapi.manga.CROTPEDIA(link)
 })
 .catch(error => {
   //error message
-}
-```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
 }
 ```
 </details>
@@ -633,21 +350,6 @@ wibuapi.drama.WIBUSUBS(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 ### Music
@@ -666,21 +368,6 @@ wibuapi.music.SUKIDESUOST(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
-}
-```
 </details>
 
 <details><summary><b>HIKARINOAKARI</b></summary><br>
@@ -697,19 +384,75 @@ wibuapi.music.HIKARINOAKARI(link)
   //error message
 }
 ```
-#### output
-```json
-{
-  "detail": [
-    {
-      "loc": [
-        "string",
-        0
-      ],
-      "msg": "string",
-      "type": "string"
-    }
-  ]
+</details>
+
+### Search
+
+<details><summary><b>GOOGLE</b></summary><br>
+
+> #### Required parameters
+> - (query) *type **String***
+
+```js
+wibuapi.search.GOOGLE(query)
+.then(response => {
+  console.log(response)
+})
+.catch(error => {
+  //error message
+}
+```
+
+</details>
+
+<details><summary><b>LK21</b></summary><br>
+
+> #### Required parameters
+> - (query) *type **String***
+
+```js
+wibuapi.search.LK21(query)
+.then(response => {
+  console.log(response)
+})
+.catch(error => {
+  //error message
+}
+```
+</details>
+
+<details><summary><b>SUKIDESUOST</b></summary><br>
+
+> #### Required parameters
+> - (query) *type **String***
+> - (page) *type **Number***
+
+```js
+wibuapi.search.SUKIDESUOST(query, page)
+.then(response => {
+  console.log(response)
+})
+.catch(error => {
+  //error message
+}
+```
+</details>
+
+### AniPics
+
+<details><summary><b>NSFW</b></summary><br>
+
+> #### Required parameters
+> - (endpoinr) *type **String***
+> - *Available endpoint list ['**NEKO**','**BJ**','**WAIFU**','**TRAP**',**AHAGAO**']*
+
+```js
+wibuapi.anipics.NSFW(enpoint)
+.then(response => {
+  console.log(response)
+})
+.catch(error => {
+  //error message
 }
 ```
 </details>
