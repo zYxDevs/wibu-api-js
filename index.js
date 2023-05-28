@@ -1,10 +1,5 @@
-const {
-  Nsfw,
-  Lendrive,
-  Kusonime,
-  Doronime,
-} = require('./lib/wibu_api')
-module.exports.Nsfw = Nsfw
-module.exports.Lendrive = Lendrive
-module.exports.Kusonime = Kusonime
-module.exports.Doronime = Doronime
+"use strict";
+module.exports.anime = require('./lib/anime.js');
+module.exports.manga = require('./lib/manga.js');
+module.exports.drama = require('./lib/drama.js');
+module.exports.music = require('./lib/music.js');

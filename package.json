@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/zYxDevs/wibu-api-js#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.4.0"
   }
 }
