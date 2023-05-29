@@ -448,7 +448,7 @@ wibuapi.search.SUKIDESUOST(query, page)
 
 > #### Required parameters
 > - (endpoint) *type **String***
-> - *Available endpoint list ['**NEKO**','**BJ**','**WAIFU**','**TRAP**',**AHAGAO**']*
+> - *Available endpoint list ['**NEKO**','**BJ**','**WAIFU**','**TRAP**',**AHEGAO**']*
 
 ```js
 wibuapi.anipics.NSFW(enpoint)
