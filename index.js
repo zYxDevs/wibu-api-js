@@ -6,6 +6,6 @@ module.exports.music = require('./lib/music.js');
 module.exports.search = require('./lib/search.js');
 module.exports.anipics = require('./lib/anipics-nsfw.js');
 module.exports.game = require('./lib/game.js');
-module.exports.porn = requure('./lib/porn.js');
+module.exports.porn = require('./lib/porn.js');
 module.exports.other = require('./lib/other.js');
 module.exports.booru = require('./lib/booru.js');

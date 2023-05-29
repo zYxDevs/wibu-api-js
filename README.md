@@ -226,13 +226,13 @@ wibuapi.anime.WESTMANGA(link)
 ```
 </details>
 
-<details><summary><b>Kamikindo</b></summary><br>
+<details><summary><b>Komikindo</b></summary><br>
 
 > #### Required parameters
 > - (link) *type **String***
 
 ```js
-wibuapi.manga.KAMIKINDO(link)
+wibuapi.manga.KOMIKINDO(link)
 .then(response => {
   console.log(response)
 })
