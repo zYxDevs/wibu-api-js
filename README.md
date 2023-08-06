@@ -356,6 +356,22 @@ wibuapi.drama.WIBUSUBS(link)
 ```
 </details>
 
+<details><summary><b>Adikfilm</b></summary><br>
+
+> #### Required parameters
+> - (link) *type **String***
+
+```js
+wibuapi.drama.ADIKFILM(link)
+.then(response => {
+  console.log(response)
+})
+.catch(error => {
+  //error message
+}
+```
+</details>
+
 ### Music
 
 <details><summary><b>Sukidesuost</b></summary><br>
